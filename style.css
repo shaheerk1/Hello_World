@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap);
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-image: url("images/background.jpg");
+        height: calc(var(--vh, 1vh) * 100);
+        overflow: hidden;
+    }
+    * {
+        list-style: none;
+        outline: none;
+        padding: 0;
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+        box-sizing: border-box;
+    }
+    .con-h2s {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 500px;
+        transform-style: preserve-3d;
+        z-index: 10000;
+        position: relative;
+    }
+    h2 {
+        font-size: 10rem;
+        position: absolute;
+        background: linear-gradient(45deg, 	rgb(255, 255, 255) 0%, rgb(51, 51, 51) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        user-select: none;
+        text-transform: uppercase;
+    }
+    h2:nth-child(1) {
+        transform: translateZ(10px);
+    }
+    h2:nth-child(2) {
+        transform: translateZ(20px);
+    }
+    h2:nth-child(3) {
+        transform: translateZ(30px);
+    }
+    h2:nth-child(4) {
+        transform: translateZ(40px);
+    }
+    h2:nth-child(5) {
+        transform: translateZ(50px);
+    }
+    h2:nth-child(6) {
+        transform: translateZ(60px);
+    }
+    h2:nth-child(7) {
+        transform: translateZ(70px);
+        background-image: url("images/background.jpg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
